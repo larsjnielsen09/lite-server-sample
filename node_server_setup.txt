@@ -1,0 +1,5 @@
+setup node server: 
+install node.js, 
+kopier pakage.json + .gitignore til mappe X, 
+kør fra mappe X "npm install", 
+kør fra mappe X "npm start" server: localhost:3000
