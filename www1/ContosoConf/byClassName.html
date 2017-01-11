@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="p1">Hello World P1</p>
+
+<p class="p2">Hello World P2</p>
+<p class="p2">Hello World P2 p2</p>
+
+<script>
+document.getElementById("p1").innerHTML = "New text p1";
+
+// Husk getElementsByClassName er et array 
+document.getElementsByClassName("p2")[0].innerHTML = "New text p2";
+</script>
+
+
+
+</body>
+</html>

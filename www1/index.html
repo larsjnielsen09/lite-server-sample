@@ -1,22 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
-
 <body>
+    <nav>
+         <a href="index.html">Forside</a>
+         <a href="Side1.html">Side_1</a>
+    </nav>
+    <header>
+        <h1>Forside</h1>
+    </header>
+   <main>
+       <article>
+           <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
 
- <div id="msg"></div>
+<p id="demo"></p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+           Blanditiis soluta atque aliquid quaerat mollitia debitis, 
+           aperiam perferendis, consectetur, magnam ut esse ad molestias! 
+           Temporibus similique ut error numquam nam corporis!</p>
+            
+            <h2>Liste af film:</h2>
+           <ul>
+               <li>Matrix</li>
+               <li>Cubic</li>
+               <li>Close Enconters</li>
+               <li>The Book of Eli</li>
+           </ul>
 
-<script>
-    if(window.location.protocol == "http:" )
-        msg.innerHTML = "Rod: www1/index.html - Server ON ON"
-    else
-        msg.innerHTML = "In file"
-</script>
+           <h2>Liste af Serier:</h2>
+           <ol>
+               <li>Black Mirror</li>
+               <li>Stranger Things</li>
+               <li>Rick & Morty</li>
+               <li>Archer</li>
+           </ol>
+           <br>
+           <h1>Table Data:</h1>
+           <table border="1">
+               <thead>
+                   <tr>
+                       <td>Id</td>
+                       <td>Name</td>
+                       <td>Image</td>
+                   </tr>
+                    <tr>
+                       <td>40</td>
+                       <td>Matrix</td>
+                       <td><img src="img/matrix.jpg" alt=""></td>
+                   </tr>
+                   <tr>
+                       <td>79</td>
+                       <td>Cubic</td>
+                       <td><img src="img/cubic.jpg" alt=""></td>
+                   </tr>
+                   <tr>
+                       <td>22</td>
+                       <td>Clæose Enconters</td>
+                       <td><img src="img/Close-Enconters.jpg" alt=""></td>
+                   </tr>
+                   <tr>
+                       <td>678</td>
+                       <td>The Book of Eli</td>
+                       <td><img src="img/The-Book-Of-Eli.jpg" alt=""></td>
+                   </tr>
+               </thead>
+           </table>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Blanditiis soluta atque aliquid quaerat mollitia debitis, 
+                aperiam perferendis, consectetur, magnam ut esse ad molestias! 
+                Temporibus similique ut error numquam nam corporis!</p>
+       </article>
+       </main>
+       <aside>
+            <ul>
+               <li><a href="Http://www.google.com">Google</a></li>
+               <li><a href="Http://www.dr.dk">Dr</a></li>
+            </ul>
+       </aside>
+       <footer>
+        <nav>
+            <a href="index.html">Forside</a>
+            <a href="Side1.html">Side_1</a>
+        </nav>
+       </footer>
+   
+    
+
 </body>
-
 </html>

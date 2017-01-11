@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+header, 
+footer,
+aside{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+header a,
+footer a        {
+    color:white; 
+    background-color:transparent; 
+    text-decoration:none;
+    padding: 2px;
+    border: 1px white solid;
+}
+header a:visited, 
+footer a:visited
+    {color:white; }
+header a:hover,
+footer a:hover 
+    {color:deepskyblue; }
+header a:active,
+footer a:active
+    {color:deepskyblue; }
+
+main{
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+aside{
+    width: 20%;
+    background-color: darkgray;
+    float: left;
+}
+
+footer{
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+
+thead tr:nth-child(odd),
+tr:nth-child(even) {background: black; color: white;}
+
+tr:nth-child(odd) {background: #FFF}
+
